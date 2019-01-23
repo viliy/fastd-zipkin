@@ -1,8 +1,9 @@
 {
-    "name": "fastd/zipkin",
+    "name": "zhaqq/zipkin",
+    "description": "the zipkin for fastd",
     "authors": [
         {
-            "name": "zhaqiu",
+            "name": "zhaqq",
             "email": "34485431@qq.com"
         }
     ],
@@ -17,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "FastD\\Zipkin\\": "src"
+            "Zhaqq\\Zipkin\\": "src"
         }
     }
 }

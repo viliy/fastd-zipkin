@@ -4,10 +4,10 @@
  * @time: 2018/11/14
  */
 
-namespace FastD\Zipkin;
+namespace Zhaqq\Zipkin;
 
-use FastD\Zipkin\Contracts\ChildSpanInterface;
-use FastD\Zipkin\Contracts\SpanInterface;
+use Zhaqq\Zipkin\Contracts\ChildSpanInterface;
+use Zhaqq\Zipkin\Contracts\SpanInterface;
 use function Zipkin\Timestamp\now;
 use Zipkin\DefaultTracing;
 use Zipkin\Endpoint;
@@ -24,7 +24,7 @@ use Zipkin\TracingBuilder;
 
 /**
  * Class Zipkin
- * @package FastD\Zipkin
+ * @package Zhaqq\Zipkin
  */
 class Zipkin implements SpanInterface, ChildSpanInterface
 {

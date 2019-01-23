@@ -4,11 +4,11 @@
  * @time: 2018/11/19
  */
 
-namespace FastD\Zipkin\Contracts;
+namespace Zhaqq\Zipkin\Contracts;
 
 /**
  * Interface SpanInterface
- * @package FastD\Zipkin\Contracts
+ * @package Zhaqq\Zipkin\Contracts
  */
 interface ChildSpanInterface
 {

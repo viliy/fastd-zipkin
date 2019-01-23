@@ -4,12 +4,12 @@
  * @time: 2018/11/16
  */
 
-namespace FastD\Zipkin\Provider;
+namespace Zhaqq\Zipkin\Provider;
 
 use FastD\Container\Container;
 use FastD\Container\ServiceProviderInterface;
-use FastD\Zipkin\Middleware\ZipkinMiddleware;
-use FastD\Zipkin\Span;
+use Zhaqq\Zipkin\Middleware\ZipkinMiddleware;
+use Zhaqq\Zipkin\Span;
 
 /**
  * Class ZipkinProvider

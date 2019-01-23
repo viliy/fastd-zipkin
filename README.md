@@ -2,6 +2,10 @@
 
 zipkin链路分析
 
+## install 
+
+> composer require zhaqq/zipkin
+
 ## Example
 
 ### FastD
@@ -21,7 +25,7 @@ vim config/app.php
         \FastD\ServiceProvider\RouteServiceProvider::class,
         
         // add Zipkin
-        \FastD\Zipkin\Provider\ZipkinProvider::class,
+        \Zhaqq\Zipkin\Provider\ZipkinProvider::class,
     ],
 
 ```
@@ -52,7 +56,7 @@ vim config/app.php
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
-use FastD\Zipkin\Span;
+use Zhaqq\Zipkin\Span;
 
 $span = new Span();
 

@@ -4,20 +4,20 @@
  * @time: 2018/11/15
  */
 
-namespace FastD\Zipkin\Middleware;
+namespace Zhaqq\Zipkin\Middleware;
 
 use FastD\Middleware\DelegateInterface;
 use FastD\Middleware\Middleware;
-use FastD\Zipkin\Queue\SpanQueue;
-use FastD\Zipkin\Server\HttpTaskServer;
-use FastD\Zipkin\XHProfRuns_Default;
-use FastD\Zipkin\XHPRuns;
+use Zhaqq\Zipkin\Queue\SpanQueue;
+use Zhaqq\Zipkin\Server\HttpTaskServer;
+use Zhaqq\Zipkin\XHProfRuns_Default;
+use Zhaqq\Zipkin\XHPRuns;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 
 /**
  * Class ZipkinMiddleware
- * @package FastD\Zipkin\Middleware
+ * @package Zhaqq\Zipkin\Middleware
  */
 class ZipkinMiddleware extends Middleware
 {

@@ -4,7 +4,7 @@
  * @time: 2018/11/20
  */
 
-namespace FastD\Zipkin\Server;
+namespace Zhaqq\Zipkin\Server;
 
 use FastD\Servitization\Server\HTTPServer;
 use swoole_server;

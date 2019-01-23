@@ -4,9 +4,9 @@
  * @time: 2018/11/20
  */
 
-namespace FastD\Zipkin\Queue;
+namespace Zhaqq\Zipkin\Queue;
 
-use FastD\Zipkin\Contracts\QueueInterface;
+use Zhaqq\Zipkin\Contracts\QueueInterface;
 
 /**
  * Class SpanQueue

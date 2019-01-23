@@ -4,11 +4,11 @@
  * @time: 2018/11/19
  */
 
-namespace FastD\Zipkin;
+namespace Zhaqq\Zipkin;
 
 /**
  * Class Span
- * @package FastD\Zipkin
+ * @package Zhaqq\Zipkin
  */
 class Span
 {
